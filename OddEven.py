@@ -1,4 +1,5 @@
 #ODD-EVEN
+#Comment
 items = [x for x in input().split(',')]
 print(items)
 for i in items:
@@ -6,6 +7,8 @@ for i in items:
 		print(i, "EVEN\n")
 	else:
 		print(i, "ODD\n")
+		
+		
 
 
 
